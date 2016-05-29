@@ -1,4 +1,5 @@
-# docker-jenkins-slave
+# docker-jenkins-slave-nodejs
+
 A dockerized jenkins slave with node.js
 
 MIT License
