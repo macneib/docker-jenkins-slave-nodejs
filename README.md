@@ -1,6 +1,17 @@
 # docker-jenkins-slave-nodejs
 
-A dockerized jenkins slave with node.js
+A dockerized jenkins slave with node.js (167.2 MB)
+
+##### Inspired by
+
+* Roland Huß
+https://github.com/rhuss/docker-java-jolokia
+* Usman Ismail
+https://github.com/usmanismail/docker-jenkins-slave
+* Michael Hart
+https://github.com/mhart/alpine-node
+
+pull requests welcome
 
 MIT License
 
