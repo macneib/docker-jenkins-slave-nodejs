@@ -1,4 +1,4 @@
 #!/bin/sh
 
-wget http://${MASTER_HOST}:8080/jnlpJars/slave.jar
-java -jar slave.jar -jnlpUrl http://${MASTER_HOST}:8080/computer/${NODE}/slave-agent.jnlp
+wget {$PROTOCOL}://${USER}:${PASSWORD}@${MASTER_HOST}/jnlpJars/slave.jar
+java -jar slave.jar -jnlpUrl {$PROTOCOL}://${USER}:${PASSWORD}@${MASTER_HOST}/computer/${NODE}/slave-agent.jnlp -secret ${SECRET}
