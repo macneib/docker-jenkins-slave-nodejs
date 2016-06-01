@@ -10,7 +10,7 @@ RUN chmod 700 /opt/jenkins/run-slave.sh
 
 # That's an 1.8.0_60 JRE from OpenJDK.net
 # Courtesy to https://github.com/frol/docker-alpine-oraclejdk8 from where the setup of glibc is borrowed
-RUN apk add --update wget ca-certificates && \
+RUN apk add --update wget git ca-certificates && \
     cd /tmp && \
     wget "https://circle-artifacts.com/gh/andyshinn/alpine-pkg-glibc/6/artifacts/0/home/ubuntu/alpine-pkg-glibc/packages/x86_64/glibc-2.21-r2.apk" \
          "https://circle-artifacts.com/gh/andyshinn/alpine-pkg-glibc/6/artifacts/0/home/ubuntu/alpine-pkg-glibc/packages/x86_64/glibc-bin-2.21-r2.apk" && \
