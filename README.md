@@ -8,12 +8,12 @@ git is installed in slave
 
 to properly use this slave you must set
 
-PROTOCOL : http or https
-USER: a jenkins user
-PASSWORD: the jenkins user pw
-MASTER_HOST: host path i.e. xxx.xxx.xxx.xxx:8080 or jenkins.example.com or example.com:8080
-NODE: Slave name
-SECRET: secret token provided by jenkins when you created a null slave
+* PROTOCOL : http or https
+* USER: a jenkins user
+* PASSWORD: the jenkins user pw
+* MASTER_HOST: host path i.e. xxx.xxx.xxx.xxx:8080 or jenkins.example.com or example.com:8080
+* NODE: Slave name
+* SECRET: secret token provided by jenkins when you created a null slave
 
 ##### Inspired by
 
